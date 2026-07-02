@@ -1,4 +1,4 @@
-import{Before, After} from '@cucumber/cucumber';
+import{Before, After, Status} from '@cucumber/cucumber';
 import {chromium, Browser, Page} from '@playwright/test';
 //import { PageFixture } from './pageFixture';
 import { CustomWorld } from './world';
@@ -14,9 +14,13 @@ Before(async function(this:CustomWorld){
     this.page= await this.context.newPage();
 });
 
-After (async function(){
+After (async function({pickle,result}){
     //await PageFixture.page.close();
     //await browser.close();
+    console.log(result?.status);
+    if(result?.status == Status.FAILED){
+        await this.page.screenshot({path:`./test-result/screenshots/${pickle.name}.png`,type:"png"});
+    }
     await this.page.close();
     await this.browser.close();
     await this.context.close();
