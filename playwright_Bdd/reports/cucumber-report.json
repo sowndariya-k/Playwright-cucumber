@@ -1,0 +1,868 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "user-authentication-tests;login-should-be-success",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Login should be success",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 518082300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to application",
+            "match": {
+              "location": "src\\test\\steps\\loginStep.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4172150300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "User click on the login link",
+            "match": {
+              "location": "src\\test\\steps\\loginStep.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 96461600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User enter the username as \"sowndariya\"",
+            "match": {
+              "location": "src\\test\\steps\\loginStep.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 138946200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "User enter the password as \"Sow@911!\"",
+            "match": {
+              "location": "src\\test\\steps\\loginStep.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31362600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "User click on the login button",
+            "match": {
+              "location": "src\\test\\steps\\loginStep.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 71424800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Login should be success",
+            "match": {
+              "location": "src\\test\\steps\\loginStep.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1159093399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 409992699
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-authentication-tests;login-should-not-be-success",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Login should not be success",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 489477700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to application",
+            "match": {
+              "location": "src\\test\\steps\\loginStep.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4105361899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "User click on the login link",
+            "match": {
+              "location": "src\\test\\steps\\loginStep.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80925600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "User enter the username as \"sowndariya\"",
+            "match": {
+              "location": "src\\test\\steps\\loginStep.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 110909400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "User enter the password as \"\"",
+            "match": {
+              "location": "src\\test\\steps\\loginStep.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28532799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "User click on the login button",
+            "match": {
+              "location": "src\\test\\steps\\loginStep.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 67156600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "Login should fail",
+            "match": {
+              "location": "src\\test\\steps\\loginStep.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 428552200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1269153599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "user-authentication-tests",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "User Authentication tests",
+    "tags": [],
+    "uri": "src\\test\\features\\login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "use-authentication-test-for-tutorialninja;login-should-be-successful",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Login should be successful",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 416354599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User navigate to the tutorialWebsite",
+            "match": {
+              "location": "src\\test\\steps\\logintutorialStep.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3448007899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 4,
+            "name": "User click Myaccount link",
+            "match": {
+              "location": "src\\test\\steps\\logintutorialStep.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 81327400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "User click the login link",
+            "match": {
+              "location": "src\\test\\steps\\logintutorialStep.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 265495100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "User enter the email as \"sowndariya@gmail.com\"",
+            "match": {
+              "location": "src\\test\\steps\\logintutorialStep.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40193699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User enter the password1 as \"Sow@911!\"",
+            "match": {
+              "location": "src\\test\\steps\\logintutorialStep.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16699199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "User click login button",
+            "match": {
+              "location": "src\\test\\steps\\logintutorialStep.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5353203700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "User should see Myaccount",
+            "match": {
+              "location": "src\\test\\steps\\logintutorialStep.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30134699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 285384100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "use-authentication-test-for-tutorialninja;login-should-not-be-successful",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Login should not be successful",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 413747799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User navigate to the tutorialWebsite",
+            "match": {
+              "location": "src\\test\\steps\\logintutorialStep.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4155708300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 4,
+            "name": "User click Myaccount link",
+            "match": {
+              "location": "src\\test\\steps\\logintutorialStep.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59677799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "User click the login link",
+            "match": {
+              "location": "src\\test\\steps\\logintutorialStep.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 346261399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "User enter the email as \"sowndariya@gmail.com\"",
+            "match": {
+              "location": "src\\test\\steps\\logintutorialStep.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29235099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "User enter the password1 as \"Sow@911\"",
+            "match": {
+              "location": "src\\test\\steps\\logintutorialStep.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18597499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "User click login button",
+            "match": {
+              "location": "src\\test\\steps\\logintutorialStep.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 952448000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "User should see the unsuccess error message",
+            "match": {
+              "location": "src\\test\\steps\\logintutorialStep.ts:37"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5019224399,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByText('Warning: No match for E-Mail Address and/or Password.', { exact: true })\nExpected: \u001b[32m\"Warning: No match for E-Mail Address and Password.\"\u001b[39m\nReceived: \u001b[31m\"Warning: No match for E-Mail Address and\u001b[7m/or\u001b[27m Password.\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"to.have.text\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('Warning: No match for E-Mail Address and/or Password.', { exact: true })\u001b[22m\n\u001b[2m    14 × locator resolved to <div class=\"alert alert-danger alert-dismissible\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"Warning: No match for E-Mail Address and/or Password.\"\u001b[22m\n\n    at captureRawStack (C:\\Users\\Sowndariya\\Desktop\\Expleo\\Playwright_BDD\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (C:\\Users\\Sowndariya\\Desktop\\Expleo\\Playwright_BDD\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toHaveText (C:\\Users\\Sowndariya\\Desktop\\Expleo\\Playwright_BDD\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at CustomWorld.<anonymous> (C:\\Users\\Sowndariya\\Desktop\\Expleo\\Playwright_BDD\\src\\test\\steps\\logintutorialStep.ts:38:111)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 514599799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 14
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "use-authentication-test-for-tutorialninja",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Use Authentication test for tutorialninja",
+    "tags": [],
+    "uri": "src\\test\\features\\logintutorial.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "register-for-tutorialsninja-website;user-should-register-successfully",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "User should register successfully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 336964499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the TutorialsNinja website",
+            "match": {
+              "location": "src\\test\\steps\\registertutorialStep.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2383878399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user clicks My Account",
+            "match": {
+              "location": "src\\test\\steps\\registertutorialStep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 109153500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user clicks Register",
+            "match": {
+              "location": "src\\test\\steps\\registertutorialStep.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 301033599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "user enters first name \"sownd\"",
+            "match": {
+              "location": "src\\test\\steps\\registertutorialStep.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 118305399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "user enters last name \"K\"",
+            "match": {
+              "location": "src\\test\\steps\\registertutorialStep.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11821299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "user enters email \"dynamic\"",
+            "match": {
+              "location": "src\\test\\steps\\registertutorialStep.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27750899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "user enters telephone \"9876543210\"",
+            "match": {
+              "location": "src\\test\\steps\\registertutorialStep.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15501299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "user enters password \"Sow@911!\"",
+            "match": {
+              "location": "src\\test\\steps\\registertutorialStep.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12231299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "user enters confirm password \"Sow@911!\"",
+            "match": {
+              "location": "src\\test\\steps\\registertutorialStep.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13199899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "user selects the privacy policy",
+            "match": {
+              "location": "src\\test\\steps\\registertutorialStep.ts:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52233799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "the user clicks Continue button",
+            "match": {
+              "location": "src\\test\\steps\\registertutorialStep.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 968228199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "user should see Your Account Has Been Created",
+            "match": {
+              "location": "src\\test\\steps\\registertutorialStep.ts:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30671299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 229323100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "register-for-tutorialsninja-website;exist-user-register-not-successful",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "exist user register not successful",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 377244800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the TutorialsNinja website",
+            "match": {
+              "location": "src\\test\\steps\\registertutorialStep.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3017497800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user clicks My Account",
+            "match": {
+              "location": "src\\test\\steps\\registertutorialStep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80200799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user clicks Register",
+            "match": {
+              "location": "src\\test\\steps\\registertutorialStep.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 223129300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "user enters first name \"sownd\"",
+            "match": {
+              "location": "src\\test\\steps\\registertutorialStep.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 228829900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "user enters last name \"K\"",
+            "match": {
+              "location": "src\\test\\steps\\registertutorialStep.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19212900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "user enters email \"sownd1234567@gmail.com\"",
+            "match": {
+              "location": "src\\test\\steps\\registertutorialStep.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21775700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "user enters telephone \"9876543210\"",
+            "match": {
+              "location": "src\\test\\steps\\registertutorialStep.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18508999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "user enters password \"Sow@911!\"",
+            "match": {
+              "location": "src\\test\\steps\\registertutorialStep.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24650499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "user enters confirm password \"Sow@911!\"",
+            "match": {
+              "location": "src\\test\\steps\\registertutorialStep.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12575300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "user selects the privacy policy",
+            "match": {
+              "location": "src\\test\\steps\\registertutorialStep.ts:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42021499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "the user clicks Continue button",
+            "match": {
+              "location": "src\\test\\steps\\registertutorialStep.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 486586400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "User should see error message",
+            "match": {
+              "location": "src\\test\\steps\\registertutorialStep.ts:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36861400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 289584599
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 21
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "register-for-tutorialsninja-website",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Register for TutorialsNinja website",
+    "tags": [],
+    "uri": "src\\test\\features\\register.feature"
+  }
+]
